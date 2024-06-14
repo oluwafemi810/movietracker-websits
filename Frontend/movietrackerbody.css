@@ -77,3 +77,19 @@ p{
 .percentage-watched:hover{
     opacity: 1
 }
+
+.suggest{
+    position: relative;
+}
+.movie-rating{
+    display: flex;
+    position: absolute;
+    top: 2px;
+    color: white;
+    left: 5px;
+    font-size: 14px;
+}
+.rating{
+    margin-left: 3px;
+    font-weight: bold;
+}

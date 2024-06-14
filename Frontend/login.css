@@ -1,0 +1,73 @@
+html, body{
+    height: 100%
+
+} 
+
+p{
+    font-family: Roboto;}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.movie-tracker-login {
+    margin: 0;
+}
+.website-title{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Roboto;
+    line-height: 70px;
+}
+
+.user-input{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.input-username{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    font-family: Roboto;
+}
+
+.input-username::placeholder{
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.login-button-division{
+    margin-top: 30px;
+}
+.login-button{
+    width: 365px;
+    height: 52.79px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 10px;
+    background-color: rgba(55, 198, 243, 1);
+    font-family: Roboto;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.login-button:hover{
+    opacity: 0.5;
+}
+.sign-in-option{
+    margin-top: 7px;
+    font-size: 12px;
+}

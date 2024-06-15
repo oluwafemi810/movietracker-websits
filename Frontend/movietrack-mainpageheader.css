@@ -23,7 +23,7 @@ p{
     
 }
 .input-search{
-    background-color: rgb(250, 249, 249);;
+    background-color: rgb(250, 249, 249);
     height: 33px;
     display: flex;
     width: 60%;
@@ -46,9 +46,4 @@ p{
 .input-division{
     display: flex
 }
-.search-image{
-    position: absolute;
-    left: 610px;
-    top: 77px;
-    width: 15px;
-}
+

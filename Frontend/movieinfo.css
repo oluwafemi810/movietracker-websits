@@ -1,0 +1,123 @@
+p{
+    font-family: Poppins;
+    margin: 0;
+}
+
+.movieinfo-body{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.top-layer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.bookmark-image{
+    width: 20px;
+    margin-right: 10px;
+}
+.movie-title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: bold;
+}
+.watchlist{
+    display: flex;
+    align-items: center;
+    background-color:  rgb(250, 249, 249);
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.watchlist:hover{
+    background-color:   rgb(173, 171, 171)
+}
+.about-movie{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-movie-information{
+    margin-left: 30px;
+}
+.movie-information{
+    display: flex;
+    
+}
+.movie-genre{
+    display: flex;
+    font-family: Poppins;
+    font-size: large;
+    
+}
+button{
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    margin-right: 25px;
+    cursor: pointer;
+    border-color: black;
+    font-weight: bold;
+    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s, border-color 0.2s;
+
+
+}
+button:hover{
+    background-color: rgb(173, 171, 171);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    border-color: white;
+}
+
+.about-movie-info{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.about-movie-info:hover{
+    text-decoration: underline;
+}
+
+.movie-rating{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.specific-rating{
+    font-size: 12px;
+}
+.review-count{
+    margin-left: 25px;
+}
+.video-thumbnail {
+    display: flex;
+    justify-content: right;
+}
+
+.movie-video-thumbnail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+}
+
+.movie-video-thumbnail:hover .play-button {
+    opacity: 1;
+}

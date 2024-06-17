@@ -1,0 +1,19 @@
+.available-movies{
+    margin-top: 4vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.movies-thumbnail{
+    position: relative;
+    width: fit-content;
+}
+.select-movie{
+    position: absolute;
+    right: 0;
+    top: 0;
+}

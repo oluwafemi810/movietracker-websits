@@ -4,15 +4,15 @@ p{
 }
 
 .movieinfo-body{
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-right: 50px;
+    
+    width: 100%;
 }
 
 .top-layer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 30px;
     
 }
 .bookmark-image{
@@ -47,7 +47,7 @@ p{
 }
 .movie-information{
     display: flex;
-    
+    align-items: center;
 }
 .movie-genre{
     display: flex;
@@ -55,7 +55,7 @@ p{
     font-size: large;
     
 }
-button{
+.genre-button{
     width: 100px;
     padding: 5px 15px;
     border-radius: 25px;
@@ -66,11 +66,11 @@ button{
     cursor: pointer;
     border-color: black;
     font-weight: bold;
-    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 
 
 }
-button:hover{
+.genre-button:hover{
     background-color: rgb(173, 171, 171);
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
     color: white;
@@ -115,9 +115,46 @@ button:hover{
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
-    
+    cursor: pointer;
 }
 
 .movie-video-thumbnail:hover .play-button {
     opacity: 1;
 }
+
+.seasons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.season-number{
+    margin-left: 30px;
+}
+.season{
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 50px;
+    height: 30%;
+    border-radius: 0;
+    border-style: solid;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: white;
+    border-radius: 10px;
+    transition: background-color 0.25s, color 0.25s, border-radius 0.2s;
+}
+.season:hover{
+    background-color: rgb(228, 228, 228);
+    color: white;
+    border-radius: 5px;
+}
+
